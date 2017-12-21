@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/riddle_action_button_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:src="@drawable/repeat"
+            app:fabSize="mini" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/riddle_action_button_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:layout_below="@+id/editFab"
+            android:layout_marginTop="12dp"
+            app:backgroundTint="#378e43"
+            android:src="@drawable/refresh"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/riddle_action_button_three"
+            android:layout_below="@+id/editFab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/home"
+            app:backgroundTint="#3d82c4"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            app:fabSize="mini"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            <ImageView
+                android:id="@+id/image_a"
+                android:layout_weight="1"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/image_b"
+                android:layout_weight="1"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="50dp"
+                />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        >
+        <ImageView
+            android:id="@+id/image_c"
+            android:layout_weight="1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:id="@+id/image_d"
+            android:layout_weight="1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>

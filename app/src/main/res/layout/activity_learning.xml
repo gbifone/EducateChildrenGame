@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:src="@drawable/repeat"
+        app:fabSize="mini" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editFab3"
+        android:layout_below="@+id/editFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/pause"
+        app:backgroundTint="#3d82c4"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        app:fabSize="mini"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editFab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFab3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:src="@drawable/home"
+        app:backgroundTint="#d32e2e"
+        app:fabSize="mini" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignLeft="@+id/editFab"
+        android:id="@+id/demoImage"
+
+        />
+
+</RelativeLayout>
