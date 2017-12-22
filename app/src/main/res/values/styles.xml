@@ -31,6 +31,42 @@
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="RippleStyle">
+        <item name="rippleOverlay">true</item>
+        <item name="rippleColor">@color/main_color_grey_300</item>
+        <item name="rippleAlpha">0.7</item>
+        <item name="rippleDimension">45dp</item>
+        <item name="rippleHover">true</item>
+        <item name="rippleDuration">200</item>
+        <item name="rippleFadeDuration">50</item>
+        <item name="rippleBackground">@android:color/transparent</item>
+        <item name="rippleDelayClick">true</item>
+        <item name="ripplePersistent">false</item>
+        <item name="rippleInAdapter">false</item>
+    </style>
+    <style name="ButtonStyle" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">9dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="ButtonStyle.RaisedEmpty" parent="@style/ButtonStyle">
+        <item name="android:background">@drawable/selector_background_empty</item>
+        <item name="android:textColor">@drawable/selector_text_empty</item>
+    </style>
+
+
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
 
 
 

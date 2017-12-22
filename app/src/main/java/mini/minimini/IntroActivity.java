@@ -19,7 +19,5 @@ public class IntroActivity extends AppCompatActivity {
         Intent i1 = new Intent(IntroActivity.this, MenuActivity.class);
         startActivity(i1);
         finish();
-
-
     }
 }
